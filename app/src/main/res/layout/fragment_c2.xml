@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#363636"
+    tools:context="com.example.es.guiadelol.c2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2-mentalidad (mindset)"
+                android:textSize="14pt"
+                android:textColor="#1ac9cb"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.1- mentalidad correcta vs incorrecta"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="A estas alturas ya debes de tener mas o menos clara como es la mentalidad de una persona que realmente mejora como jugador. Algunos ejemplos
+Mentalidad correcta:
+-“yo juego para mejorar, no para ganar, ganar en sí no depende 100% de mi, pero mi desempeño depende 100% de mí mismo”
+-“insultar a mi compañero por que murió solo lo hará jugar peor, mejor intentare ayudarlo mas para que así se recupere y podamos tomar algún objetivo”
+-(situación: intentaste pelear 1v1 contra una leblanc y te mato por que estaba 4 1 y no te diste cuenta que se habia feedeado en su linea)
+“antes de haber iniciado debería haber visto que iba 4 1, debí haber conocido mis límites y haber calculado la agresión”
+-(situación: el mid oponente te acaba de matar en tu linea y tu compañero no aviso el MIA)
+“fue culpa mía haber pusheado tanto sin tener wards, debo estar más atento al mini mapa”
+Nótese que en todos los ejemplos anteriores podría perfectamente haber culpado e insultado a mi equipo, pero eso NO me va a ayudar a crecer como jugador.
+Culpar a otros es la mentalidad incorrecta, si quieres ganar debes hacerte responsable de TODO lo que este bajo tu control, es la ÚNICA forma de subir."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.2 el dilema del prisionero (confianza)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Hay 2 prisioneros encerrados,pero están en distintas celdas y no se pueden comunicar entre ellos. Fueron atrapados por cometer un crimen pero la justicia no tiene suficientes pruebas para condenarlos por todos sus crímenes, se les pide que cooperen y delaten a su compañero, si lo hacen reducen su condena y aumentan la condena de su compañero. Si ninguno de los 2 no habla cada uno obtiene una condena mediana.
+Hay 2 opciones
+1- Eres egoísta y traicionas a tu compañero por beneficio propio
+2- Confías en tu compañero
+En league of legends muchas veces va a ocurrir eso, algunas veces vas a tener que decidir si vale la pena perder cs para ayudar alguna linea o si es preferible ser egoísta y dejar a tu equipo de lado para “ganar la partida solo”. No existe una decisión correcta o incorrecta, debes decidir según tu experiencia y según lo que te funcione. Como caso específico, Si estas jugando con hipercarrys como jax, vayne, katarina o riven y estas jugando en elo bajo. Es preferible intentar ganar 1v5 si te toca un team malo. Si no eres bueno usando hipercarrys es preferible dedicarte a ayudar a tu equipo romeando y dejar kills a los demas.
+ La diferencia entre tu decision y la nuestra es la experiencia.
+pero no hace falta que dependas de eso. DECIDE... confia en ti mismo, o confia en tus compañeros. yo no lo se... nunca lo he sabido, puedo confiar en mis propias habilidades o en las de mis compañeros en los que confio. pero absolutamente nadie conoce el resultado. entonces, toma la decision de la cual te arrepentiras menos."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.3 mira las cosas con OBJETIVIDAD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text=" ten expectativas realistas y enfocarte en lo que SI puedes hacer
+Una persona puede opinar de ti que eres malo, o que el campeón que eliges no sirve. la realidad objetiva es: si te enfocas en mejorar tus numeros, los hechos hablaran por si mismos.
+Si ganas 70% de las veces con ashe adc, entonces anda ashe adc.
+Si sacas 90 cs al minuto 10:30 y tienes un KDA de 5.3 con ashe entonces la estas jugando bien, incluso si esa partida que jugaste con ashe era inganable no te debe importar lo que sea que te digan, mejora tus numeros y el elo llegara solo.
+De la misma forma, si juegas con un campeón con el que sacas pesimo cs, pesimo KDA y con el cual tienes menos del 50% de gane en 30 partidas.. mejor cambia de personaje o dedicate a entrenarlo mas."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.4 flamers, ragers, troles (el bendito boton para mutear)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Tienes un rager, flamer, trol en tu equipo? Mutealo inmediatamente y punto, jamas discutas en un juego, no ganas absolutamente nada haciéndolo.
+Si discutes harás que tus aliados se enfoquen en ganar la discusión en vez de la ganar partida, da igual quien tenga la razón, TODO el equipo pierde al discutir.
+Si lo que dicen los demas te afecta demasiado o te encuentras en un momento complicado en tu vida es aconsejable que cuando comience la partida mutees a todos (incluyendo al team oponente) el comando en el chat es /mute all, es muy aconsejable hacer eso para poder enfocarte en tu propio juego. (puedes escribir primero 7mute all con 7 incluido para que los demas sepan que los muteaste)
+La moral también es importante en la partida, si es posible intenta comunicarte para subir los animos o para organizar objetivos (no hace falta ver lo que responden, es preferible no ver nada que arriesgarse a ver insultos)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.5-malas Rachas, afks (frustración)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="¿has escuchado de scarra alguna vez?
+Scarra es un jugador profesional, jugo dota desde que salio, juega lol desde el beta. Llego a ser el n1 de challenger en NA, es un jugador profesional-coach-streamer. Gana 200 mil dolares al año, incluso algunos estiman que gana mucho mas. Sabe todo del juego, ha visto prácticamente todo juego competitivo de toda escena competitiva en lo que se refiere a league of legends.
+¿por que te estoy contando esto? Simple, scarra el 25 de agosto perdió 19 partidas seguidas en challenger mientras jugaba transmitiendo en vivo.
+Incluso los pros mas grandes de league of legends tienen como maximo un
+65-70% de victorias smurfeando, es decir, HAY PARTIDAS INGANABLES. NADIE gana el 100% de partidas en league of legends, nadie se salva de tener una mala racha de vez en cuando. Ni siquiera faker (el mejor jugador del mundo, con contratos por 1 millon de dolares, con 60% de gane en challenger kr y el puesto numero 1), de 100 partidas faker NO PUEDE carrear 40. Si el mejor jugador del mundo no puede, no esperes hacerlo tu.
+No tiene nada de malo eso, algunas veces todo tu equipo irá con sus mejores personajes y roles y perderás por que el equipo oponente era mejor, o por que tenían mejor teamfight, o por que alguien en tu equipo cometió un error estúpido y se dejo atrapar, o por que te robaron un baron, o por afks, o por ragequiters.
+en muchas ocasiones te va a tocar perder muchas partidas seguidas ¿que hacer en ese caso? Analizar fríamente si es por que tu estas jugando mal o si es tu equipo el que esta jugando mal y cometiendo errores. Si notas que estas jugando mal por la frustración y que la racha esta afectando tu juego deja de jugar inmediatamente y distráete. si pierdes 3 seguidas no juegues hasta el otro dia.
+Asume y entiende que en este juego NO se puede ganar siempre."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.6 la clave del éxito (considera a league of legends como un deporte o un arte)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="¿como se tiene éxito en un Deporte? practica, habilidad y mecanicas.
+¿como se tiene éxito en artes marciales? disciplina y respeto al oponente.
+¿como se tiene éxito en el Arte (ej. Musica)? dedicacion, repeticion y ejecucion"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.7 deja tu orgullo de lado"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="existe un concepto en economía llamado “costo hundido”, se puede resumir como “no vale la pena perder tiempo en una causa perdida aunque ya hayas invertido”, muchas personas ocupan personajes con los que claramente no tienen la habilidad para usarlos al 100%, o simplemente no son capaces de obtener resultados mínimos (+50% win y farm decente), pero piensan “ya he invertido demasiado tiempo en el campeón asi que lo voy a seguir jugando”. El tiempo ya lo perdiste en una causa perdida, supéralo y aférrate a lo que SI eres bueno, invierte tu tiempo en un campeón que SI valga la pena tu esfuerzo en vez de jugar una y otra vez con algo con lo que no sirves. Aunque te duela el orgullo.. déjalo ir.
+-Emperor Imperial mejor conocido como urgod, tiene mas de 3000 partidas con urgot pero es plata 5 aunque lleva 3 años jugando, este es un claro ejemplo de una persona que solo juega por jugar en vez de mejorar."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="2.8 el sistema es justo"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Es difícil jugar ranked sin frustrarse, el principal motivo es que uno experimenta
+un sentimiento de injusticia tremendo, en el fondo cuando “reportamos” a un ragequit, un feed intencional, un afk o un troll. Sabemos que ese reporte no va a hacer absolutamente nada (quizás le baneen el chat), yo en lo personal le he hecho seguimiento a ciertas cuentas de personas que descaradamente me trollearon una partida y jamas ninguno de ellos fue baneado. Sin embargo, el sistema es justo. si, leiste bien, aunque esos trolls siguen arruinando partidas, el sistema es justo. ¿por qué? Simple, porque todos esos trolls que me arruinaron partidas NO SUBEN, Y YO SI. Y ese es el punto. Los trolls que me topé en oro siguen en oro, los trolls que me topé en platino siguen en platino, Mientras que yo subo y subo. yo merezco subir y ellos no. Así de simple, El sistema ranked de league of legends es justo y funciona perfectamente bien, por el hecho de que no permite subir a aquellos que no lo merecen, cada vez que te toque un troll repítete a ti mismo “Yo subiré y Él no”. en lo personal esa mentalidad me ha ayudado muchísimo a no frustrarme al toparme con trolls."/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.es.guiadelol.Main22Activity"
+    tools:showIn="@layout/activity_main22">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="350dp"
+                android:src="@drawable/gi0"
+                android:layout_height="180dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cac9cb"
+                android:textSize="13pt"
+                android:text="Defender y destruir"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#b8b6bf"
+
+                android:text="El estándar dorado del juego competitivo de League of Legends. La acción en la Grieta del Invocador suele dividirse en fases muy distintivas, empezando por los duelos individuales entre los oponentes de carril y terminando en épicas peleas en equipo a gran escala. ¡Ábrete camino hasta la base rival y destruye el nexo enemigo para conseguir la victoria!"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:src="@drawable/gi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#b8b6bf"
+                android:text="La Grieta del Invocador es el campo de batalla más grande de League of Legends. Es un mapa simétrico según su diagonal y se divide en tres carriles que llevan a la base enemiga. Cada carril está protegido por tres torretas y un inhibidor, mientras que el nexo es defendido por un par de torretas. Ambos lados del mapa cuentan con una extensa jungla en la que se pueden encontrar potentes mejoras y, además, un río central que alberga a dos poderosos monstruos y un cangrejo escurridizo que otorgan beneficios a todo el equipo."/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:src="@drawable/gi1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cac9cb"
+                android:textSize="13pt"
+                android:text="Jungla"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#b8b6bf"
+                android:text="La jungla
+Las zonas de jungla simétricas de la Grieta del Invocador contienen varios campamentos de monstruos menores que otorgan poderes cuando el hechizo ‘’Castigo’’ es usado sobre ellos, así como un par de monstruos poderosos que otorgan mejoras de mayor duración al campeón que los mata. Gestionar bien estas mejoras es algo esencial para maximizar el rendimiento de tu equipo en el campo de batalla, así que mantente atento a todo enemigo que veas entrar en la jungla. Si no tienes cuidado, ¡podría robarse una de tus mejoras!
+Emblema de Cenizas: Mata al Espino Rojo para recibir una mejora que te cura de manera progresiva y hace que tus ataques básicos ralenticen al enemigo e inflijan daño con el tiempo.
+Emblema de Perspicacia: Mata al Guardián Azul para recibir una mejora que reduce los enfriamientos y hace que tu campeón regenere maná más rápidamente."
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:src="@drawable/gi2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cac9cb"
+                android:textSize="13pt"
+                android:text="El Dragon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#b8b6bf"
+                android:layout_height="wrap_content"
+                android:text="Ubicado en el río cerca del carril inferior, lo mejor es enfrentarse en grupo a este monstruo neutral. Derrotar al dragón otorga una mejora permanente con acumulaciones de ‘’Matadragones’’, con una gran bonificación al matar cinco dragones. El dragón también gana daño adicional y recibe menos daño de oponentes que tengan más acumulaciones de la mejora Matadragones.
+Poder del Dragón: Gana daño de ataque y habilidad de poder adicionales.
+Ira del Dragón: Gana daño adicional a torretas y estructuras.
+Vuelo del Dragón: Gana velocidad de movimiento adicional.
+Dominancia del Dragón: Gana daño adicional a súbditos y monstruos.
+Aspecto del Dragón: Duplica todas las bonificaciones anteriores y hace que tus ataques quemen a tus enemigos con una gran cantidad de daño prolongado."/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+               android:src="@drawable/gi3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#cac9cb"
+                android:textSize="13pt"
+                android:text="El Baron Nashor"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#b8b6bf"
+                android:layout_height="wrap_content"
+                android:text="Este peligroso monstruo tiene su guarida en el río próximo al carril superior. Un combate difícil incluso para cinco campeones bien equipados, el Barón Nashor es el encuentro neutral más complicado de League of Legends. Derrotar a este gigantesco bicho otorga la poderosísima mejora ‘‘Mano del Dragón’’ a todos los campeones vivos.
+Mano del Barón: Una mejora que otorga una gran cantidad de daño de ataque y poder de habilidad, además de reducir por mucho los tiempos de recuperación. Todos los súbditos cercanos ganan además bonificaciones poderosas, como alcance extra, daño, velocidad de movimiento y reducción de daño."/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

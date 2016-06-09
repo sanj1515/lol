@@ -1,0 +1,451 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363636"
+    android:orientation="vertical"
+    tools:context="com.example.es.guiadelol.c4Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4-mecanicas"
+                android:textSize="14pt"
+                android:textColor="#1ac9cb"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.1 mirar el minimapa como habito"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Si bien no es técnicamente una mecánica, tener conciencia del mapa es algo básico para ganar partidas, la pregunta es:
+¿si estoy concentrado en farmear o en mi oponente, como lo hago para poner atención al mapa al mismo tiempo?
+Respuesta: no se puede, obviamente no puedes mirar 2 cosas al mismo tiempo.
+¿que hacer entonces? Simple, hacer que mirar el minimapa sea un hábito.
+Por ejemplo:
+-cada vez que mi oponente me golpee mirar el minimapa.
+-Cada vez que farmee 3 minions mirar el minimapa
+-cada vez que subo de nivel mirar el minimapa
+-cada vez que ocurre un asesinato mirar el minimapa
+ETC
+usa cualquier regla o habito que te funcione.
+En el caso del jungla, como es el único rol que no tiene que estar pendiente de un oponente de manera directa, debe ser el rol que más este pendiente del minimapa, es deber del jungla el informar y alertar a sus compañeros en caso que vea cualquier cosa."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.2 farmear [LO MAS IMPORTANTE DEL JUEGO]"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Inicia un juego personalizado (custom) completamente solo, sin ningún bot.
+Ahora intenta farmear lo mas que puedas hasta el minuto 10:30. (wave del cañon)
+Sin usar ningún tipo de habilidad, solo dándole el último golpe a los minions.
+(solo puedes usar habilidades si se van a morir 2 minions al mismo tiempo)
+Si no eres capaz de llegar fácilmente a 90 cs entonces NO JUEGUES RANKED.
+Un cs perfecto seria 114 cs al minuto 10:30, si no eres capaz de llegar por lo menos a 90 cs tu sólo sin ninguna clase de presion NO esperes sacar mayor cs con la presión de un oponente y un jungla.
+“pero jugar “solo” no me sirve de nada por que no es una situación realista”
+Todos los profesionales, faker, dyrus, froggen, etc. Practican cs en partidas personalizadas, practican mecánicas y trade contra bots. Si ellos lo hacen por qué tu no? Por alguna parte tienes que empezar, si quieres ser por ejemplo un buen basquetbolista debes empezar por aprender a encestar tu solo sin ningún tipo de presión, si no eres capaz de encestar solo, no esperes encestar en un partido en que tengas que sumarle la presion de tus oponentes y el publico.
+La practica hace al maestro, la única forma de mejorar tus mecánicas es practicando una y otra ves hasta que se vuelva como la palabra lo dice “mecánico” automático y te puedas enfocar en otras cosas mas importantes.
+Algunos jugadores aconsejan usar a anivia o vladimir para practicar cs (por su autoataque lento) yo en lo personal no lo recomiendo pero si te funciona hazlo.
+Nota importante: 12 cs = 1 asesinato
+El cs SIEMPRE es mas importante que matar.
+Si jugaras tu linea con cs perfecto incluso sin sacar ninguna muerte serias capaz de comprar un rabadon en tu primera compra en la tienda. Y ESO tendria un impacto significativo en el juego.
+CONSEJO PERSONAL DEL AUTOR PARA FARMEAR MEJOR:
+Primero que todo, jamás tendrás condiciones ideales, puede que tu support te robe farm si vayas adc, a veces pasa, supéralo. Segundo, fíjate en el daño que tus minions le hacen a los minions de tu oponente, observa las partículas y calcula tu golpe, fue un consejo de skyshock y creo que fue lo que mas me sirvió para mejorar mi farmeo.
+¿que hago si me toca en top o mid un 1v2?
+Si te toca esa situación debes aferrarte a tu torre, evitar el poke oponente o tratar de estar cerca de los súbditos enemigos cuando mueran para al menos obtener la experiencia, no existe un cs como meta en este caso, ganas la linea si no mueres y logras resistir lo mas posible. Si en tu carril te tocan 2 oponentes eso significa que las otras lineas están libres de presión, en ese caso tus compañeros deben ganar sus lineas, si no las ganan no hay mucho que puedas hacer al respecto..
+¿Si el jungla me campea?
+¿Si me sacan hard counter?
+No sirve de nada enfocarte en golpear a un minion si gracias a eso el oponente te baja la mitad de la vida o si el jungla constantemente te gankea forzándote a volver a base o bajo tu torre. No siempre se puede ganar la linea, en esos casos debes enfocarte en no morir y luego en mid-late game recuperarte y proteger a tus compañeros que ganaron sus lineas ya que estan carreando la partida
+¿como farmeo bajo torre?
+Los súbditos melee mueren con 3 golpes de la torre, por lo tanto una vez que la torre les pega 2 veces los tienes que golpear tu. Con los súbitos de rango mueren con 2 golpes de la torre, tienes que ver si tienes suficiente daño para matarlos luego de que la torre los golpea. si no puedes, golpealos primero > espera que la torre los golpee > y finalmente pegas tu el ultimo golpe."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.3 tradear [IMPORTANTE]"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="¿que es tradear? Tradear es intercambiar daño con tu oponente y salir beneficiado de ese intercambio. Si tu recibes 50 de daño y tu oponente 100, entonces tu ganaste el trade.Formas de trade y cosas que debes saber:
+                1-Control de la linea (trade con minions)
+RESPETA A LOS MINIONS, sobretodo en los niveles mas bajos, cuando golpeas a tu oponente todos los minions cercanos a él te comenzaran a golpear a ti, y créeme que es mucho el daño que puedes recibir si tu oponente esta cerca de una wave grande de minions, SIEMPRE calcula el daño y el efecto que pueden tener los minions en ti antes de lanzarte encima de tu oponente.
+por el contrario, si tu estas rodeado de tus minions no dudes en golpear a tu oponente y usar eso como ventaja. A eso se le llama “trade con minions”.
+Si tu oponente es mas fuerte que tu entonces la forma correcta de reaccionar es congelando la linea ¿que es eso? Básicamente, dejar los minions entre la mitad de la linea y tu torre, evitando asi que tu torre le pege a los súbditos del oponente y dejándote a ti en una posición favorable cerca de tu torre. ¿como se hace? Solo dándole el ultimo golpe a los minions.Si ves que el jungla oponente se encuentra en otra linea y tienes ventaja, o si tu oponente fue a comprar a base y puedes escapar o hacerle frente al jungla oponente, la forma correcta de reaccionar es pusheando la linea.
+De esa forma la torre enemiga golpeara tus súbditos y el perderá esa experiencia, una vez que pusheas la linea puedes ir a ayudar otras lineas, puedes farmear la jungla o puedes ir a base.
+2-Trade por nivel (all in)
+Ciertos campeones como riven, fizz, syndra obtienen una tremenda ventaja 1v1 cuando inmediatamente suben de nivel y poseen una habilidad extra que el campeón oponente, en esos casos lo recomendable es hacer all in (tirarse con todo) ya que la mayoría de las veces o lograras un asesinato, o un trade que te beneficiara mucho, o por lo menos obligaras a tu oponente a volver a base.
+-Ejemplo: (fiz sube a nivel 6, inmediatamente lanzar el tiburón, salta con el tridente hacia su oponente, tira ignite y golpea con el tridente) el oponente no puede ganar el trade incluso si lo golpea de vuelta por que carece de su ulti para hacerle un daño equivalente. (ya que el es lvl 5 y fiz es lvl 6)El mismo ejemplo de puede aplicar con otros campeones a lvl 2 o lvl 3,
+Generalmente si obtienen alguna habilidad de cc.
+3-Trade por cooldown
+Esto es como su nombre indica, abusar de tu oponente cuando acaba de usar una habilidad (usualmente para farmear) y sabes que no la podrá usar contra ti en una x cantidad de segundos. Es aplicable también al cooldown de los hechizos de invocador, si tienes ignite y tu oponente no y tienes ese conocimiento, entonces deberías tener una ventaja significativa al momento de tradear o hacer all in.
+-Ejemplo: (estas jugando como adc, blitz tira un gancho pero lo falla, como sabes que el enfriamiento del gancho es de 20 segundos, eso significa que tienes 20 segundos para abusar de tus oponentes golpeándolos).
+4-Trade por cs
+(trade común en adcs de alto nivel) Golpear a tu oponente cuando este va a darle el ultimo golpe a uno de tus súbditos, requiere no solo estar pendiente del oponente y de la vida de los minions oponentes, sino que también estar pendiente de la vida de tus propios súbditos. Una técnica común es pararte encima del minion que tu crees que tu oponente va a golpear y en el momento en que lo golpea inmediatamente lo golpeas a él. (en este ejemplo trist le pega a jayce)
+5-Trade con objetivos
+El jungla oponente esta rompiendo top? Hagamos dragón!
+El equipo oponente esta haciendo dragón? Pushear top!
+El equipo oponente esta pusheando bot? Hagamos baron!
+Acabamos de perder un miembro de nuestro equipo, nos están pusheando los 5 oponentes en mid y no tenemos ninguna oportunidad de ganar 4v5?
+Hace un split push! Fuerza a tu oponente a volver a base!
+Tu jungla oponente gankea bot? Roba el buff rojo!
+Eso se conoce como trade con objetivos, trata dentro de lo posible de que esos trades te beneficien a ti, o que al menos, intenten compensar el precio de haber perdido un objetivo mas valioso. (baron por torre por ejemplo)
+6-consideraciones finales
+-buffs, daño de trade inicial vs late, etc.
+League of legends es un juego muy complejo con muchas variables que pueden influir en los tradeos. Si tu oponente tiene algun buff, respétaselo. Si sabes que el zigs oponente tiene blue no compitas en pokeo por que te va a destrozar.
+Si sabes que el adc oponente acaba de obtener rojo, no hagas tradeos 1v1.
+Si sabes que tu oponente acaba de hacer baron, juega pasivo y evita peleas durante 4 minutos (que es lo que dura el buff de baron).
+Conoce los limites y el funcionamiento de tu campeón, si sabes que tu campeón es débil en early pero fuerte en late game, no te arriesgues y juega pasivo al inicio. Ese criterio solo se obtiene mediante la experiencia.
+7-no subestimes las pociones de vida
+Una poción de vida otorga 150 de vida en 10 segundos, esos 150 de hp HACEN la diferencia en un tradeo parejo y ayudan muchas veces a sobrevivir ignites.
+8-hipertrade
+la suma de todos los conceptos antes nombrados llevados a su perfeccionamiento se conoce como “hipertrade” algo muy común en adcs de alto nivel (doublelift, robertxlee, wildturtle, etc). Al saber hipertrade puedes ganar tu linea el 90% de las veces y ganar rápidamente elo ¿el problema? Toma MUCHO trabajo dominarlo."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.4 skillshots (flash)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Como norma general, te recomendaría no usar campeones que dependan de demasiada habilidad o factores mecánicos como los skillshots (tiros de habilidad), sin embargo si te gustan esa clase de campeones es estrictamente necesario que entrenes y aprendas a usar smartcast, 1 segundo puede hacer la diferencia entre ganar o perder una partida. También practica el flash siempre que te sea posible, sobretodo en las paredes anchas. (pégate a la pared y luego flashea, sino no sale)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.5 zonear"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Zonear es restringir el espacio en el que se puede mover el oponente, o que al menos, si desea entrar a esa zona, correrá el riesgo de sufrir daño o morir.
+Ejemplos de zoneo:
+-blitz/leona/tresh escondido en un arbusto impidiendo que el adc oponente pueda farmear. Existe un video en youtube que lo explica muy bien llamado “aphromoo best support NA”.
+-mini bombas de ziggs.
+-ecualizador ulti de rumble.
+ Si tienes una ventaja absoluta en la fase de lineas y siempre ganas los tradeos, posicionate entre tus minions y el oponente, de esa forma si el oponente desea farmear si o si se va a tener que enfrentar contigo. Parate encima del minion que tu oponente desee farmear (de preferencia el minion del cañon) así fuerzas un tradeo con tu oponente, si le ganas 1v1 no lo dejes farmear."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.6 baitear)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Baitear es bastante arriesgado en soloqueue, ya que no existe una buena comunicacion entre los compañeros (skype, ts3, etc). Básicamente, es provocar a tu oponente para que caiga en tu trampa.
+Ejemplos de baiteo:
+1-El mas notable es el fake baron o falso baron.
+Sabes que tienes ventaja en tf, van todos a baron para hacerlo pero en realidad el objetivo no es hacerlo, el objetivo es que los oponentes se acerquen para asi poder iniciar y poder terminar la partida. en este ejemplo fnatic baitea a roccat en baron, irelia gasta su flash para intentar matar a xpeke pero se encuentra con todo el team de fnatic que le salta en la cara,fnatic termina matando a roccat y sacando el baron.
+2-campeón carnada.
+Te posicionas con baja vida e intentas hacer que tu oponente te siga, para que luego tu equipo que estaba escondido en algún arbusto lo sorprendan y lo maten.
+3-ward carnada
+ en este ejemplo, malphite pone el ward con la intención de que fidle se acerque y lo intente romper, luego aprovecha eso para ultearlo desde el otro lado del muro y finalmente matarlo.
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.7 divear"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Requiere mucho calculo y experiencia, necesitas saber si realmente seras capaz de sobrevivir al tankear la torre. En algunas ocasiones en que tienes una ventaja significativa sobre tu oponente, puedes usar el dive para terminar una partida.
+Ejemplos de campeones buenísimos para divear: malphite, zac, amumu."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.8 engage (iniciar) y disengage (frenar)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Iniciar cuando tienes ventaja es algo clave para poder terminar una partida y evitar las iniciaciones o evitar pelear cuando te inician es también clave para remontar una partida dificil.
+Lo mas importante para iniciar es usar un flash seguido de un gap-closer (una habilidad de acercamiento), eso si o si forzara una teamfight. Asegurate que tu equipo tenga forma de seguirte con la iniciación y de que seas capaz de soportar el daño de tus oponentes sin morir en 2 segundos.
+Ejemplos: ulti de vi, malphite, leona, tresh.
+Lo mas importante para frenar o evitar iniciaciones es respetar a tus oponentes y evitar ir donde no tienes visión, si eres debil y ves un campeón como vi siempre súmale al rango de su ulti un flash, imagina que te puede iniciar en cualquier momento. Imagina que los oponentes pueden estar campeando un bush.
+Ejemplos de disengages: e de tresh, ulti de janna, cabezaso de alistar."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.9 peeling"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="es básicamente proteger a tu carry (ad o ap) de algún oponente (generalmente tanke) que le esta haciendo focus, generalmente es trabajo del suport."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.10 focus"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="El adc focusea al tanke, si, leiste bien, el adc focusea al tanke.
+Un adc es diferente que un asesino, un adc tiene daño por segundo, NO burst.
+Un adc debe aprovechar cada segundo para hacer el mayor daño posible a quien sea que le pueda pegar (generalmente el tanke), los asesinos y los luchadores son los que deben hacer focus a quien sea que haga daño.
+Si ves que la oriana del equipo oponente va 9 0 y el graves del equipo oponente va 0 9 enfoca tus golpes en oriana.. no en graves. Suena obvio pero muuucha gente no entiende ese concepto (sobretodo en bronce-plata)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.11 campear"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Pasando los 35-40 minutos cualquier ace o exterminio puede significar perder la partida. Por lo tanto lo aconsejable es que siempre estén todos juntos. Campear y matar a un oponente solitario es la forma mas fácil de terminar una partida.
+El concepto es igualmente aplicable a la fase de lineas, si tienes en mid un asesino como akali o zed que necesitan asesinatos para poder rendir y hacer snowball, campealos, genera frustración en el oponente destrozándolo en su linea. Una akali feed es capaz de ganar una partida por si sola, ayúdala y ganaras."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.12 kitear (attack move) (posicionamiento)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Casi exclusivo de los adc, si deseas ganar elo con un adc es indispensable aprender a kitear, ya que no puedes contar con que tu suport en soloqueue te haga siempre el favor de hacerte peeling.
+¿que es kitear? Un adc tiene 3 fases de ataque:
+-disparo
+-recarga
+-segundo disparo
+¿cual es la magia aqui? Mientras “recargas” te puedes mover.
+Es una distancia mínima, pero significa la diferencia entre morir explotando en 1 segundo o en destrozar a tu oponente luego de esquivarlo durante 7 segundos.
+Es la diferencia entre un adc de bronce y un adc de challenger.
+La forma mas fácil de aprender a kitear es entrenando y acostumbrándose a usar la tecla A, los golem de la jungla son muy buenos para practicar también.
+Cito a unswlolsoc: La mejor forma de entender el kite es que debes imaginar una cuerda imaginaria entre tu y tu oponente del tamaño de tu rango, cuando logres que esa cuerda este siempre tensa sin romperse, habrás perfeccionado el kite."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.13 jukear"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="si bien en estricto rigor no es una mecánica, aprender a jukear puede salvarte la vida en muchas ocasiones. ¿que es jukear? Engañar a tu oponente, hacerlo ver como un idiota.
+Algunos ejemplos de juke:-juegas con shaco y te persigue un oponente, entras a un arbusto y activas tu invisibilidad, pero corres en sentido contrario, es decir, hacia donde se encuentra tu oponente, de esa forma lo vas a perder y no va a saber donde encontrarte.
+-simular estar usando la invisibilidad con wukong cuando en realidad estas simplemente quieto, usar la invisibilidad en arbustos para escapar.
+-aprender a usar el clon de leblanc de manera efectiva para engañar a tu oponente.
+En resumen: algunos campeones tienen formas de jukear, si quieres ganar elo aprende esos pequeños trucos."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.14 smitear"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Mecánica exclusiva del jungla. Contrario a lo que muchos creen, saber cuando y como smitear requiere de mecánicas y entrenamiento. Un mal smite te puede costar una partida fácilmente. Sin ir mas lejos, el equipo mexicano lyon gaming perdio en argentina contra PEX debido a un mal smite de parte de su jungla (thyak) lo cual les significo un robo de baron y perder la posibilidad de ir al mundial de la season 4.
+¿como se smitea correctamente?
+Primero, existen 3 cosas que debes dominar si o si.
+1-fijarte SIEMPRE en el daño de tu smite (el cual aumenta según el nivel)
+2-fijarte SIEMPRE en el daño del objetivo que deseas smitear
+3-fijarte en el daño de la habilidad que piensas usar si deseas robarlo
+Segundo, existen 2 tipos de smite
+-1 countersmite (velocidad)
+El countersmite es hecho al momento de invadir la jungla oponente, se usa principalmente para robar monstruos, la clave esta en robar rapidamente el monstruo que esta haciendo el jungla oponente antes de que el lo pueda smitear.
+El mas típico es el de raptors, le saltas en la cara al oponente y smiteas el grande.
+-2 smite de dragón-baron (velocidad + calculo)
+Este es sin dudas el mas complicado de hacer, este smite no solo requiere de velocidad sino también de calculo de tu daño vs el del oponente. Existen ciertos campeones que son mejores que otros para robar baron (ej. nunu, chogat, elise)
+¿por que? Simple, por que tienen un alto daño PREVIO al smite.Supongamos que estas jugando con nunu, tu Q quita 800 de daño y Tu smite quita 1000 de daño. Eso significa que cuando el baron tengo 1799 de vida, puedes flashear, usar q+smite y robarlo con un 90% de seguridad.La clave esta en sumar los daños lo mas rápido posible. si estas jugando contra campeones favorables a robar baron evita hacer baron si ellos están vivos, lo mismo se aplica a dragón.
+Cuando deseas robar buffs se aplica la misma lógica, si ambos tienen un daño de 420 de smite, entonces usa una habilidad de daño y luego usa el smite (una q de leesin desde el otro lado del muro por ejemplo, es una de las mas comunes)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.15 split push"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Saber cuando hacer split push es sumamente importante, existen ciertos campeones como tryndamere, yi, shaco, shen, etc. Que te pueden ganar casi completamente una partida si se sabe hacer bien un split push (pushear por separado).
+                ¿cuando hacer split push? Hay 2 situaciones generales:
+1-si tu equipo es completamente asqueroso en comparación al equipo oponente, si ves que por composición y por habilidad no existe ninguna posibilidad de ganar teamfight entonces enfocate en pushear una linea e intenta sacar un inhibidor. Si tienes suerte tu equipo puede que gane una teamfight por algun error estupido del oponente y puedes sacar un inhibidor y dar vuelta la partida. Existe un video en youtube que explica muy bien esta forma de ganar llamado:
+“how to carry an unwinnable game” (como ganar un juego inganable)
+2-Si crees que tu equipo puede ganar un 4v5. Comienza a pushear una linea, hacer eso es prácticamente tener un free inhibidor o algun free kill en la teamfight que ocurre mientras pusheas la linea, ¿por que? porque algunos van a querer pelear y otros van a querer volver a base para defenderla ¿resultado? Ellos se van a separar y los que se quedan van a morir. Incluso si todos se quedan y ellos ganan la teamfight igualmente sacaste un inhibidor, es decir, ganas o ganas."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.16 romear"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="¿que es roaming? Roaming es ayudar otras lineas que necesiten ayuda, idealmente se hace luego de pushear la linea del oponente o luego de haberlo asesinado o haberlo forzado a volver a base.
+Bajo que criterios romear?
+34
+-Romea si ves alguna oportunidad de asesinato
+-romea lineas que tengan cc, el cc asegura asesinatos en soloqueue
+-romea lineas de campeones que puedan carrear la partida
+-romea lineas en que el oponente pueda carrear la partida, no les dejes hacer snowball.
+Considera siempre que hacer roaming implica un sacrificio personal de tiempo y oro, si la inversión no va a valer la pena mejor no vayas."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.17 contrajungla - invasión"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="90% de las veces lo hace el jungla pero en estricto rigor lo puede hacer cualquiera.
+¿como se hace contrajungla?
+-colocando visión en la jungla oponente, de esa forma se sabe la posición del jungla oponente y anulas su potencial de gankeo
+-robando buffs y matando sus monstruos dejando siempre uno pequeño
+(generalmente el segundo buff azul aparece en el minuto 7:10 aproximadamente, si eres un mid como nidalee puedes colocar un ward en el buff y cuando el jungla oponente lo este haciendo se lo robas con una lanza, este es solo un ejemplo de contrajungla pero se pueden hacer muchas cosas mas que puedes coordinar mejor a tu equipo, como es el caso de las invasiónes. (early-mid game)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.18 comunicación"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Tus compañeros no pueden leer tu mente, si tienes alguna idea o algún punto importante DILO, pero dilo de manera educada.
+Cosas tan simples como escribir: “focus ahri” pueden hacer una TREMENDA diferencia en una teamfight, toma siempre el rol de líder y comunícate con tu equipo para tomar OBJETIVOS.
+Ejemplo: (acaban de ganar una teamfight y rompieron el inhibidor de mid)
+Sorprendentemente el 75% de los jugadores NO sabe que hacer despues de eso.
+Escribir en el chat:
+“equipo, ya rompimos mid, ya no tenemos nada que hacer en mid.
+Ahora que OBJETIVO tomaremos? Bot, top, o baron?”
+Créeme cuando te digo que con tan solo decir frases como esas,
+aumentas considerablemente tus probabilidades de ganar una partida en soloqueue."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.19 agresión calculada"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Quizás el concepto que mas se aprende con la experiencia.
+Si vas a pelear 1v1 con alguien, o quieres iniciar una teamfight.
+Necesitas saber si tu o tu equipo van a ser capaces de ganarla.
+¿como saber eso? Mira la pantalla de puntajes. Si vas a pelear 1v1 contra un zed que va 5 1 0 con 230 de farm al minuto 20 probablemente sea mejor intentar agarrarlo de a varios..."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.20 timers"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Inhibidor > 5 minutos
+Buff azul o rojo > 5 minutos
+Dragón > 6 minutos
+Baron > 7 minutos
+Flash/teleport > 5 minutos
+Exaust/Barrier/Ghost/Ignite > 3.5 minutos
+Heal > 4 minutos"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.21 control"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="cuando tomas algun objetivo tienes que mantener el CONTROL sobre el, por ejemplo, si robas un buff o sacas un dragón o un baron, es indispensable que los vuelvas a sacar apenas salgan, para eso necesitas saber cuando estar en el lugar correcto y en el momento correcto ademas de usar vision."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.22 counterganks (anticipar el movimiento del oponente)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Concepto complicado de utilizar y de enseñar. Se usa principalmente en mid y en jungla, consiste en anticipar donde tu oponente va a gankear para hacer un countergank y destrozarlo. En el caso del mid, se puede saber segun las lineas que se encuentren pusheadas (usualmente es bot), y en el caso del jungla, se puede saber principalmente por su ruta (usualmente es top o mid).
+recomiendo buscar material en youtube para entenderlo con mayor detalle."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="4.4 skillshots (flash)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text=""/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

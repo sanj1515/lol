@@ -1,0 +1,209 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363636"
+    android:orientation="vertical"
+    tools:context="com.example.es.guiadelol.c1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1-ELO MMR"
+        android:textSize="14pt"
+        android:textColor="#1ac9cb"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#aac9cb"
+        android:text="1.1- 'Elo Hell' (entender que el sistema SI funciona)"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textSize="10pt"
+        android:text="“yo soy bueno, pero en mi equipo siempre me toca gente mala y por eso pierdo”
+“siempre a mí me tocan trolls y afks”
+“la unica forma de ganar es teniendo suerte”
+Si quieres subir de liga debes entender una cosa: el sistema SI funciona.
+NO hay jugadores de bronce 5 que llegaron a challenger por “suerte” y NO hay jugadores de challenger que no puedan salir de bronce V por “mala suerte”.
+EL SISTEMA SIEMPRE TE PONE DONDE TE MERECES ESTAR. ASI DE SIMPLE."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#aac9cb"
+        android:text="1.2-factor suerte"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textSize="10pt"
+        android:text="debes estar pensando “la única forma de ganar partidas es con suerte. Si tengo la suerte de que me toque el mejor equipo debería de ganar fácilmente”.
+siguiendo esa lógica, todas las personas que han llegado a challenger estan por “suerte” ¿cierto?
+Si eso es cierto:
+-explica por qué wildturtle tiene 3 cuentas en challenger en NA.
+-Explica por qué robertxlee tiene 8 cuentas en challenger en diferentes servidores.
+-Explica por qué nightblue3 llego de bronce 3 a challenger en 1 semana en su smurf nigthwhite (jungla) y todo registrado en su stream. (subio de bronce a oro en 1 dia ganando 12 partidas seguidas)
+-explica por qué existen “eloboosters”. Gente que por cierta cantidad de dinero sube cuentas a diamante en 1 o 2 semanas.
+-explica por qué hi im gosu (streamer challenger main vayne) pudo subir una cuenta de unranked a diamante en 24 horas seguidas.
+>Si realmente la única forma de subir es evitando los “trolls y afks” teniendo “suerte” entonces acaso estos jugadores profesionales fueron bendecidos por el dios del lol que tienen tanta suerte como para subir tantas cuentas a diamante-challenger? Obvio que no, la razon por la cual suben es porque saben carrear.
+Todas las evidencias nos llevan a la siguente conclusión:
+El ELO-MMR no se gana por suerte, se gana por habilidad."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#aac9cb"
+        android:text="1.3-Algunas frases notables"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textSize="10pt"
+        android:text="-Doublelift: “no entiendo la forma en que la gente afronta soloqueue diciendo “mi team es un asco”, tu no juegas para que tus compañeros mejoren, tu juegas para mejorar tu mismo”.
+-Nigthblue3: “no existe ninguna fórmula para ganar elo, debes enfocarte en mejorar como jugador y el elo llega solo, no existe tal cosa como el elo hell”
+-Scarra: “jugué dota durante 5 años, pero solo en los últimos 2 meses fue cuando dije “soy pésimo, debo enfocarme en mejorar aquí, aquí y aquí“ y solo en ese momento comencé a ser un mejor jugador”
+-Imaqtpie: “si yo termino 20/0 y pierdo la partida no es por que mi equipo era un asco, es por que yo no fui lo suficientemente bueno para poder ganar la partida”
+-Nigthblue3: “me da igual perder si gracias a eso puedo aprender algo que me ayude a ser mejor jugador”
+-Gbay99: “hay jugadores que juegan cientos de partidas durante años y no logran salir de bronce, en cambio otros jugan unas pocas partidas y llegan a diamante ¿como? Simple, ellos se enfocan en mejorar”
+-Athene: “mi vecino me decía que no podía salir del elo hell, jugamos duo y ganamos 5 partidas seguidas, lo deje en plata 5.. y sigue en plata 5. Mientras yo sigo subiendo y subiendo, si quieres ganar tienes que saber carrear”.
+-Skywilliams: “si eres realmente bueno y siempre terminas 66/0/99 (sarcasmo) pero pierdes por que las otras lineas feedearon, donde estabas tu para ayudarlos cuando te necesitaban, si realmente eres tan bueno deja de ser una puta y AYÚDALOS. Las partidas NO se ganan por asesinatos, se ganan por objetivos, presión, momentum, comunicación y moral.”
+-Trick2g: “ si no puedes carrear en soloqueue entonces estás cagado”
+-Ozrak: “si un compañero comete un error hay 2 opciones:
+1-es lo suficientemente inteligente como para darse cuenta que cometió un error y lo corrige. 2- tiene retraso mental y cualquier cosa que yo le diga no va a cambiar absolutamente nada. Es decir, está fuera de mi control, lo que si esta en mi control es mejorar mis propias mecánicas y mi toma de decisiones”
+-Jeremy gaming curious: “league of legends es un juego en EQUIPO, no sirve de nada que ganes tu linea si tu EQUIPO pierde.ayuda a tu EQUIPO y ganarás”
+-Imaqtpie: “¿quieres saber cual es el secreto para no frustrarse en soloqueue? Simple, cuando entres en cola cierra tus ojos y piensa “todas las personas con las que voy a jugar son pésimas”, listo, no te puedes frustrar de los demás teniendo 0 expectativas.
+Tu no te frustras si tu hijo de 2 años no te puede resolver un problema de álgebra porque desde un principio tu jamás esperaste que lo pudiera resolver.
+-Ozrak: “si ganas o pierdes 10 partidas seguidas ¿cual es la ÚNICA constante de esas 10 partidas? La ÚNICA constante es que en esas 10 partidas estuviste TU, por lo tanto TU eres el ÚNICO factor determinante a la hora de subir o bajar de liga”"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#aac9cb"
+        android:text="1.4-ligas"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textSize="10pt"
+        android:text="Diferencias de cada liga estadísticamente hablando:
+>Bronce [30% del server] [ranking 70 al 100%]
+Pésimo cs (40 al minuto 10:30 con suerte)
+Pésima toma de decisiones
+Casi nulo conocimiento estratégico del juego
+nulas mecánicas
+(0 entendimiento de conceptos como zonear, congelar la línea, tradear, kitear, focusear, romear, posicionamiento, etc)
+>Plata [40% del server] [ranking 30 al 70%]
+Cs mediocre (55 aprox al minuto 10:30)
+Toma de decisiones mediocres
+Conocimiento estratégico básico del juego
+Mecánicas mediocres
+>oro [20% del server] [ranking 10 al 30%]
+Cs decente (70 aprox al minuto 10:30)
+Toma de decisiones decente pero mejorable
+Conocimiento decente del juego
+Mecánicas decentes
+>platino [8% del server] [ranking 2-10%]
+Buen cs (de 80 para arriba al minuto 10:30)
+Buena toma de decisiones pero problemas de constancia
+Muy buen conocimiento del juego
+Buenas mecánicas pero no perfeccionadas
+>diamante [2% del server] (0.05% = challenger)
+Cs perfecto incluso bajo presión (90 como minimo al minuto 10:30)
+Excelente toma de decisiones
+Conocimiento total del juego
+Perfeccionamiento de mecánicas (hipertrade, perfect kite, posicionamiento)
+Perfeccionamiento de campeones."/>//falta en liga las graficas
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#aac9cb"
+        android:text="1.5-dodgear / kitear"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textSize="10pt"
+        android:text="Una de las cosas mas importantes que aprender para ganar elo-mmr
+Es entender que Muchas veces existen partidas que se pierden desde la pantalla de la seleccion, no tiene sentido jugar un juego en que tienes 95% de probabilidades de perder. en esos casos es mejor dodgear/kitear (salirse de pantalla de selección),los castigos son:
+-3lp (5 minutos)
+Luego -10lp (30 minutos) [el reset del castigo se hace cada 12 horas]
+Si estas en promoción cuenta como derrota
+Pero NO SE PIERDE ELO. > es preferible perder -3lp o una derrota en promoción que perder 15 lp Y ELO.
+El lp no tiene ninguna importancia en lo absoluto, si tu elo es alto ganaras mas lp al ganar y perderas menos al perder. Si tu elo es lo suficientemente alto puedes saltar divisiones saltándote las promociones. Si no te sientes seguro de ganar no juegues.
+ aunque es tedioso, es aconsejable siempre revisar a tu equipo en lolking antes de jugar para poder determinarlo de la forma correcta
+Bajo que criterios dodgear?
+Trollpick (sion ap mid, urgot jungla, amumu top, soraka mid, popy sup, etc)
+-salvo que en su historial tenga una excelente racha con el personaje (lo cual no pasa casi nunca)
+1- No respetar el meta (kenen adc, teemo adc, twisted fate adc, etc)
+2- Mala composición vs composición oponente (no tanke, no cc, no iniciación)
+(vs team oponente con yasuo-wukong-malphite-janna)
+3- compañero extremadamente toxico, que amenaze con trolear o con irse afk.
+4- Composición troll (doble adc, doble jungla, etc)
+5- Compañero que quiere “probar un campeón” o simplemente usar un campeón con el que no tiene experiencia o tiene un desempeño mediocre. Solo si sientes que tu equipo y tu eres capaz de carrearlo en caso que pierda la linea (90% de las veces) no salgas.
+6- Solo juega como suport o en un rol que no juegas bien si todo el resto de tu equipo juega en sus mejores roles y con sus mejores personajes, si no sientes que tu equipo te pueda carrear mejor no juegues.
+7- Persona que esta en una mala racha extrema."/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:textColor="#aac9cb"
+    android:text="1.6-carrear (concepto de snowball)"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textSize="10pt"
+        android:text="Que es carrear? El concepto se puede explicar de la siguiente forma:
+Estas en una carrera en equipo junto a otras 4 personas vs otro equipo de 5 personas, debes cruzar la meta pero solo ganas si TODOS llegan a la meta.
+Tu eres rápido, pero te das cuenta que no te sirve de nada ser rápido si tienes un compañero que no avanza casi nada por estar agotado (es un peso muerto)
+¿que hacer? Tienes 2 opciones:
+1- Lo insultas y criticas pensando que mágicamente va a mejorar en 1 segundo su cansancio, esperando que su actitud cambie y que comience repentinamente a tener un super rendimiento para ganar.
+2- Lo tomas en brazos (carrear) y lo llevas a la meta.
+La opción 2 suena extrema, pero si lo piensas bien es la única solución correcta en ese momento. De hecho, es la única solución en absoluto.
+En el caso de league of legends, hay 3 lineas y un jungla. Algunas veces vas a ganar tu linea pero las otras lineas van a perder, y en algunos casos van a perder y van a dejar a tu oponente tan fuerte que no vas a ser capaz de ganar la partida incluso si ganaste tu propia linea.
+¿que hacer? Tienes 2 opciones:
+1- Insultar al jungla por no gankear, insultar a tu equipo por perder sus lineas, esperar que mágicamente por insultarlos comiencen a jugar mejor y que te ayuden a tomar objetivos para ganar la partida.
+2- AYUDARLOS, una vez que mates a tu oponente en linea, o lo fuerces a volver a base, inmediatamente ayuda alguna linea que necesite ayuda, si eres jungla campea una linea que tenga problemas, cómprales wards para prevenir que los gankeen, organiza a tu equipo para que tomen objetivos.
+14
+¿Cual es la decisión correcta? Ese concepto se conoce en league of legends como SNOWBALL o bola de nieve, es como una bola de nieve que cae de una montaña, al principio es pequeña pero cada vez se va haciendo más grande.
+Si tienes una ventaja en linea APROVÉCHALA, transforma esa ventaja en JUGADAS que te permitan obtener ASESINATOS que te permitan ayudar a tu EQUIPO para que puedan tomar OBJETIVOS y ejercer PRESIÓN en el oponente tomando control del mapa con VISIÓN acorralándolos para finalmente destruir su base.
+Eso, es 100 veces más inteligente que insultar a tu equipo."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#aac9cb"
+        android:text="1.7-ser carreado"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textSize="10pt"
+        android:text="Algunas veces vas a perder tu linea por que te van a campear, algunas veces vas a perder por que el oponente fue mejor que tu o por que abusó sacandote un counter que usaba bien.
+Que hacer en ese caso?
+No rendirte, seguir dando tu mejor esfuerzo, ayudando a que tu equipo te carree. Si diste la primera sangre o tu oponente te gano la linea NO es el fin del juego. Juega pasivo y espera que tu equipo te ayude.
+Si saliste mal de tu linea pero en bot tienes un draven 8 2 entonces cuando comiencen las teamfight DEFIÉNDELO, EL TE ESTA CARREANDO A TI.
+1.8 Da igual donde quedes
+El 90% de la gente luego de sus 10 primeras partidas terminan en plata/bronce, el 70% del servidor se encuentra de plata para abajo.
+“quedar” es diferente que “pertenecer”. Tu puedes quedar en bronce 5 pero si realmente mereces pertenecer a “oro” entonces llegaras a oro. Da igual donde quedes, siempre que te enfoques en mejorar eventualmente vas a subir.
+Si juegas 100 partidas y no subes ni bajas, entonces estas en la liga que mereces."/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

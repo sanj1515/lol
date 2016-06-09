@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#363636"
+    tools:context="com.example.es.guiadelol.c3Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3-elementos externos"
+                android:textSize="14pt"
+                android:textColor="#1ac9cb"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="3.1 internet"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Si no tienes un internet decente y estable NO juegues ranked.
+Por ejemplo, si compartes internet en LAN y existe la posibilidad de que justo a la hora en que deseas jugar otra persona use el internet y te genere lag en el juego NO juegues. Es prácticamente una derrota asegurada.
+3.2 revisa tu ping antes de jugar
+Algunas veces, las propias compañías de internet tienen problemas de lag, como se revisa el ping? Simple, en la consola de windows (cmd) escribe
+ping.exe www.paginadelpaisdondeseencuentreleserver.x – t
+El numero que aparece en ms es tu ping. De 150 para arriba es injugable.
+El ping debe ser constante, si tiene cambios muy bruscos significa lag."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="3.3 computador"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Si no tienes un computador decente NO juegues ranked. No sirve de nada que saques cs perfecto en tu linea si en las teamfight tienes 2fps y no puedes hacer absolutamente nada por que se te congela la pantalla, para qué hablar de usar campeones que requieren cierta habilidad y reflejos (zed por ejemplo). No podras sacarle el 100% de provecho a tu juego incluso si fueras el mejor zed del mundo."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12pt"
+                android:textColor="#aac9cb"
+                android:text="3.4 distracciones, emociones, cansancio"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#d6d6d6"
+                android:textSize="10pt"
+                android:text="Hay ruido cerca de donde juegas? Existe la posibilidad de que te interrumpan? Tienes alguna distracción que te molesta? Estas pasando por un mal momento emocionalmente? Estas cansado o con sueño? NO JUEGUES RANKED. Los juegos de ranked son para dar el 100% de tu capacidad para ganar, si no puedes dar el 100% entonces incluso si ganas no te mereces haber ganado, así de simple."/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
